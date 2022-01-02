@@ -6,29 +6,32 @@
 두 성적 순위는 모두 1위부터 N위까지 동석차 없이 결정된다고 가정한다.
 """
 
-T = int(input()) #테스트 케이스 수
+T = int(input()) #테스트 케이스 수 
 for i in range (T):
-    answer = 0
-    vol = int(input()) #면접
+    answer = 1
+    vol = int(input()) #지원자 수
     s = [0]*vol
     for j in range(vol): #입력 다 받는 중
         num1, num2 = input().split(" ")
         s[int(num1)-1] = int(num2) #정렬 역할
 
-    iter = vol
-    while 1:
-        refer = s[0] #기준 값
-        pos = 0
-        answer = answer + 1
-        for k in range(1, iter):
-            if refer > s[k]:
-                s[pos] = s[k]
-                pos = pos+1
-        iter = pos
-        if iter == 1:
-            print(answer+1)
-            break
-                
+    refer = s[0]
+    for k in range(1,vol):
+        if refer > s[k]:
+            answer = answer + 1
+            refer = s[k]
+    print(answer)
+
+
+
+""" 
+시간 복잡도
+최대 T = 20
+최대 지원자수 = 100000
+
+20 * 200000 = 4000000
+
+"""     
         
 """
 <예시 1>
