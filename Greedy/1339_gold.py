@@ -68,7 +68,7 @@ for str in s:
         #if value > v[ord(alpha)-65]: #이전 값보다 크면 값을 바꿈
         #    v[ord(alpha) -65] = value
 
-#print(v)
+
 #모든 알파벳 들의 위치, 빈도수 정보가 다 들어가 있는 상태
 
 num = 9

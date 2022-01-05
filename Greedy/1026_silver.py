@@ -18,5 +18,3 @@ for i in range(n):
 
 print(sum)
     
-#print(arr)
-#print(brr)

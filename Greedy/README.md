@@ -13,7 +13,7 @@
 
 1789_
 >
-
+>
 1339_단어 수학
 > https://www.acmicpc.net/problem/1339
 > 

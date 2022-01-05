@@ -1,4 +1,8 @@
 ## 2week
+
+bfs, dfs 기본 코드 
+> bfs_dfs.py
+
 11725_silver
 > https://www.acmicpc.net/problem/11725
 

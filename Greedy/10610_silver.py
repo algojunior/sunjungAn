@@ -5,7 +5,6 @@ for w in arr:
     brr.append(int(w))
 
 sum = sum(brr)
-
 if(0 not in brr):
     print(-1)
     
