@@ -9,37 +9,36 @@
 
 """
 import sys
-import collections
 
 M, N, H = list(map(int, input().split()))
 tomato = [[list(map(int, sys.stdin.readline().split())) for i in range(N)] for j in range(H)] #3차원
 idx_x = [-1, 1, 0, 0, 0, 0 ]
 idx_y = [0, 0, -1, 1, 0, 0 ]
 idx_z = [0, 0, 0, 0, -1, 1 ]
-deq = collections.deque()
+queue = []
 
 for h in range(H):
     for n in range(N):
         for m in range(M):
             if(tomato[h][n][m]==1):
-                deq.append([h, n, m]) # 익은 토마토가 있는 높이, 열, 행
+                queue.append([h, n, m]) # 익은 토마토가 있는 높이, 열, 행
 
     
 count = 0
-queue_len = len(deq) #익은 토마토 개수
-while deq:
-        pos = deq.popleft()
+queue_len = len(queue) #익은 토마토 개수
+while queue:
+        pos = queue.pop(0)
         queue_len = queue_len - 1
         for i in range(6):
             new_h = pos[0] + idx_z[i]
             new_y = pos[1] + idx_y[i]
             new_x = pos[2] + idx_x[i]
             if(0<=new_h<H and 0<=new_y<N and 0<=new_x<M and tomato[new_h][new_y][new_x] == 0):
-                deq.append([new_h, new_y, new_x])
+                queue.append([new_h, new_y, new_x])
                 tomato[new_h][new_y][new_x] = 1
 
         if (queue_len == 0):
-            queue_len = len(deq)
+            queue_len = len(queue)
             count = count + 1        
 
 
