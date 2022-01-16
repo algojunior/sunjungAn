@@ -12,7 +12,8 @@
 > https://www.acmicpc.net/problem/1946
 
 1789_
->
+> https://www.acmicpc.net/problem/1789
+
 >
 1339_단어 수학
 > https://www.acmicpc.net/problem/1339
