@@ -9,6 +9,5 @@ while 1:
         if(m[k]>m[i]):
             dp[i] = max(dp[i], dp[k]+1) 
     k = k-1
-print(dp)
 print(max(dp))
 
