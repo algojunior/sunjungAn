@@ -9,4 +9,4 @@
 |4week|Dynamic Algorithm|1003, 10870, 11053, 1149, 1912, 2156, 2579|
 |5week|Graph Theorem|10282, 1162, 1238, 1504, 1753, 1916|
 |6week|Graph Theorem||
-|7weel|Dinamic Algorithm|2193, 14501|
+|7weel|Dinamic Algorithm|2193, 14501, 1904|
