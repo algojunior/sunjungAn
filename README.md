@@ -10,7 +10,7 @@
 |5week|Graph Theorem|10282, 1162, 1238, 1504, 1753, 1916|
 |6week|Graph Theorem||
 |7week|Dinamic Algorithm|2193, 14501, 1904|
-
+|8week|Theme02.STL_stack|4949, 10828, 1874|
 
 ### BOJ Jihan's Algorithm Group
 > https://www.acmicpc.net/group/9061
