@@ -20,4 +20,5 @@
 
 
 ### SQL coding test
-> https://programmers.co.kr/learn/challenges?tab=sql_practice_kit
++ sql 문법 익히기: https://sqlzoo.net/wiki/The_JOIN_operation
++ 대표 문제 훑기: https://programmers.co.kr/learn/challenges?tab=sql_practice_kit
