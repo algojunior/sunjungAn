@@ -20,5 +20,6 @@
 
 
 ### SQL coding test
++ sql 간단 강의: https://www.youtube.com/watch?v=vgIc4ctNFbc
 + sql 문법 익히기: https://sqlzoo.net/wiki/The_JOIN_operation
 + 대표 문제 훑기: https://programmers.co.kr/learn/challenges?tab=sql_practice_kit
